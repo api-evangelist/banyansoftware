@@ -1,8 +1,15 @@
 aid: banyansoftware
 name: Banyansoftware
-description: 'Banyansoftware is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Banyan Software is a global acquirer and permanent operator of vertical
+  market software (VMS) businesses, headquartered in Toronto, Canada. Built as an
+  "evergreen" alternative to private equity, Banyan buys profitable, growing enterprise
+  software companies that hold dominant positions in niche markets (typically $2M-$30M
+  in annual revenue) and holds them for the long term rather than reselling. It has
+  acquired 100+ companies across sectors including healthcare IT, education, manufacturing,
+  broadcast, public sector, and fintech, and supports them through a Growth Ops team
+  spanning AI, talent, sales and marketing, payments, product, finance, cybersecurity,
+  and legal. Banyan Software is a holding/operating company and does not currently
+  publish a public developer API, developer portal, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/banyansoftware/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,29 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Vertical Market Software
+- Software Acquisition
+- Enterprise Software
+- Holding Company
+- Private Equity Alternative
+- Mergers and Acquisitions
+image: https://banyansoftware.com/wp-content/uploads/2021/12/logo.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/banyansoftware-domain-security.yml
+- type: LLMsTxt
+  url: llms/banyansoftware-llms.txt
 - type: Website
   url: https://banyansoftware.com
+- type: About
+  url: https://banyansoftware.com/about/
+- type: Blog
+  url: https://banyansoftware.com/news/
+- type: Support
+  url: https://banyansoftware.com/contact/
+- type: TermsOfService
+  url: https://banyansoftware.com/terms/
+- type: PrivacyPolicy
+  url: https://banyansoftware.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
